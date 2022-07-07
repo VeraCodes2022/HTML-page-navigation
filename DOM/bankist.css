@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+.container{
+    position: relative;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    margin: 50px 0;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+.navlist > li {
+    padding:0 40px;
+    border-radius:4px;
+    margin:0 20px;
+    align-self: center;
+}
+
+
+
+a{text-decoration: none;
+    color: black;
+}
+
+
+.module{
+    width: 400px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 242, 242, 0.5);
+    margin: 0 auto;
+    display: none;
+    padding:20px;
+    justify-items: center;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+.module >h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userinfo >li {
+    margin:8px 0;
+    align-self: center;
+}
+.btn{
+    width: 100px;
+    align-self:flex-start;
+}
+
+
+#close{
+  align-self: center;
+  text-align: end;
+}
+
+
+
+.banner{
+   display: flex;
+   padding-bottom: 30px;
+   margin: auto;
+   justify-content: center;
+
+
+}
+
+.banner > h2 {
+    align-self: center;
+    margin:20px;
+}
+
+
+.leftarrow, .rightarrow{
+    font-size: 30px;
+    align-self: center;
+    
+}
+
+
+.mainbanner{
+    position: relative;
+    margin:auto;
+
+}
+
+.greenbtn{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.down, .upper{
+    font-size: 26px;
+}
+
+.feature{
+    width:200px;
+}
+#section--1, #section--3,#section--2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+#section--1, #section--3>h2 {
+    margin: 20px;
+
+}
+#section--1,#section--3>p {
+    align-self: center;
+}
+
+.mainpart{
+    width: 100%;
+    align-self: center;
+    background-color: rgba(237, 238, 240, 0.7);
+    margin: 20px 0 0 0;
+}
+.btns > button {
+    width: 140px;
+    height: 26px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.btn1{
+    background-color: rgb(148, 200, 25);
+}
+.btn2{
+    background-color: rgb(225, 202, 25);
+}
+.btn3{
+    background-color: rgb(219, 20, 25);
+}
+
+
+
+.feature{
+    margin: auto;
+}
+
+#section--1{
+    width: 86%;
+    flex-direction:row;
+}
+.texts{
+    align-self:center;
+}
+
+.part1, .part2, .part3{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+}
+
+
+.part1 > h3, .part2 > h3, .part3 > h3{ 
+    margin: 5px;
+}
+
+#section--3>p {
+    width:70%;
+}
+.btn-active{
+    transform: translateY(-20%);
+}
+
+.content{
+    display: none;
+}
+
+.display-active{
+    display: block;
+}
+
+.transfer , .loan , .closeacc{
+    width: 60%;
+    margin-left: 2px;
+    padding:10px;
+    text-align:start;
+    margin: auto;
+
+}
+
+#section--2 > p, #section--2 > h1{
+    margin:5px 0;
+}
